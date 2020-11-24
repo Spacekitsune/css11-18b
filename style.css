@@ -1,0 +1,160 @@
+body {
+  background-color: #CCE7F4;
+}
+
+h1 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20pt;
+    line-height: 50%;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    line-height: 50%;
+}
+
+.text {
+  text-align: center;
+  width: 260px;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.picture{
+   width: 300px;
+   margin: auto;
+}
+
+.topBun, .bottomBun {
+  background-color: #F8B300;
+  width: 280px;
+  height: 75px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.topBun{
+    border-bottom: #CA9304 solid 5px;
+    border-radius: 65px 65px 10px 10px;
+    margin-bottom: 5px;
+}
+
+.sezame1, .sezame2, .sezame3, .sezame4, .sezame5 {
+  background-color: #FCD05D;
+  width: 25px;
+  height: 7px;
+  border-radius: 90px / 50px;
+  position: relative;
+}
+
+.sezame1 {
+   left: 50px;
+   top: 25px;
+}
+
+.sezame2 {
+    left: 125px;
+    top: 18px;
+}
+
+.sezame3 {
+    left: 200px;
+    top: 11px;
+}
+
+.sezame4 {
+    left: 87px;
+    top: 25px;
+}
+
+.sezame5 {
+    left: 162px;
+    top: 18px;
+}
+
+.salad1, .salad2 {
+  background-color: #67AF43;
+  height: 10px;
+  margin-bottom: 3px;
+}
+
+.salad1 {
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: #569437 solid 3px;
+    box-sizing: border-box;
+}
+
+.salad2 {
+    border-radius: 0px 0px 5px 5px;
+    border-top: #569437 solid 3px;
+    box-sizing: border-box;
+}
+
+.cheese {
+  background-color: #F5E03D;
+  height: 15px;
+  border-radius: 5px;
+  border-bottom: #D3C139 solid 5px;
+  margin-bottom: 3px;
+  box-sizing: border-box;
+}
+
+.tomatoBig {
+    margin: auto;
+    height: 25px;
+    width: 280px;
+    margin-bottom: 3px;
+}
+
+.tomato1 {
+  background-color: #E3431E;
+  height: 25px;
+  width: 49%;
+  border-bottom: #C73A1A solid 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  float: left;
+}
+
+.tomato2 {
+    background-color: #E3431E;
+    height: 25px;
+    width: 49%;
+    border-bottom: #C73A1A solid 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: right;
+  }
+
+.meat {
+  background-color: #694032;
+  height: 45px;
+  border-bottom: #462C23 solid 6px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 3px;
+}
+
+.bottomBun{
+    border-top: #CA9304 solid 5px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 65px 65px ;
+}
+.price {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20pt;
+    color: #cce7f4;
+    background-color: #e3431e;
+    border-radius: 5px;
+    float: right;
+    width: 100px;
+    height: 40px;
+    transform: rotate(-25deg);
+    position: relative;
+    bottom: 25px;
+}
